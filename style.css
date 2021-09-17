@@ -1,0 +1,49 @@
+*,*::before,::after{
+    box-sizing: border-box;
+}
+body{
+   
+}
+.logo{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.nav-color{
+    background: #003399;;
+}
+.heading-align{
+padding-top: 6rem;
+padding-bottom: 3rem;
+color:  #003399;
+font-size:1.85rem;
+font-weight: bolder;
+}
+
+.div-colr{
+    background:  #CCFFCC;
+    color: #003399;
+    border: 5px solid white;
+    
+}
+h2{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+p{
+    font-size: 1.20rem;
+    line-height: 1.75;
+    
+}
+
+
+
+@media (min-width:768px){
+    .navbar-toggler{
+        display: none;
+    }
+    .navbar-nav{
+     display: none;   
+    }
+}
